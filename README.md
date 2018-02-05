@@ -48,5 +48,6 @@ Create 'routes' folder on the root path and put route file there. After that ini
 
 ```
 var books = require('./routes/books');
+
 app.use('/books', books);
 ```
